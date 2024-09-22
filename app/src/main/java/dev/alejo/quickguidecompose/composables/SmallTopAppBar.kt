@@ -22,8 +22,8 @@ fun SmallTopAppBar() {
                 title = { Text("Small TopAppBar") }
             )
         }
-    ) {
-
+    ) { innerPadding ->
+        ScrollContent(innerPadding = innerPadding)
     }
 }
 
